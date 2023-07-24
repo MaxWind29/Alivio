@@ -53,3 +53,12 @@
 .card ul li + li{
    margin-top: 20px;
 }
+
+@media only screen and (max-width: 500px) {
+   .card{
+      max-width: 296px;
+   }
+   .product-card{
+      margin: -30% 15px 0;
+   }
+}

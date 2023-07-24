@@ -5,11 +5,11 @@
    align-items: center;
    line-height: 1;
    padding: 0 50px;
-   height: 51px;
+   /* height: 51px; */
    border-radius: 4px;
    font-size: 20px;
    font-weight: 400;
-   line-height: 51px;
+   /* line-height: 51px; */
    color: #fff;
    background-color: #01996d;
    transition: all 0.2s ease-in;
@@ -21,4 +21,15 @@
 
 .button-big, a.button-big{
    min-height: 65px;
+}
+
+@media only screen and (max-width: 991px) {
+   .button, a.button{
+      min-height: 41px;
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+   .button-big a.button-big{
+      min-height: 55px;
+   }
 }

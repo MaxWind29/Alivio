@@ -34,7 +34,7 @@
 }
 
 .home-bg-img{
-   background-color: bisque;
+   background-color: rgb(255, 255, 255);
    position: absolute;
    z-index: -1;
    left: 0;
@@ -47,4 +47,18 @@
    object-fit: cover;
    height: 100%;
    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+   .home{
+      padding: 40px 0;
+      min-height: unset;
+   }
+   .home-heading{
+      font-size: 45px;
+      line-height: 1.2;
+   }
+   .home-bg-img{
+      opacity: 0.3;
+   }
 }
