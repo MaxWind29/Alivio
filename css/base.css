@@ -24,6 +24,10 @@ body{
    font-size: 0;
 }
 
+.no-scroll{
+   overflow: hidden;
+}
+
 /* Grid */
 .container{
    width: 1400px;

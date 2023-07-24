@@ -18,6 +18,8 @@
    <link rel="stylesheet" href="css/blocks/card.css">
    <link rel="stylesheet" href="css/blocks/avatar.css">
    <link rel="stylesheet" href="css/blocks/footer.css">
+   <link rel="stylesheet" href="css/blocks/mobile-nav-button.css">
+   <link rel="stylesheet" href="css/blocks/mobile-nav.css">
    <!-- Fonts -->
    <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css">
    <link rel="stylesheet" href="css/fonts/Lato/stylesheet.css">
@@ -33,28 +35,39 @@
             </div>
             <nav class="header-nav">
                <ul class="header-nav-list">
-                  <li>
-                     <a href="#">Why Alivio</a>
-                  </li>
-                  <li>
-                     <a href="#">Solutions</a>
-                  </li>
-                  <li>
-                     <a href="#">Community</a>
-                  </li>
-                  <li>
-                     <a href="#">Pricing</a>
-                  </li>
+                  <li><a href="#">Why Alivio</a></li>
+                  <li><a href="#">Solutions</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Pricing</a></li>
                </ul>
             </nav>
             <div class="header-login">
                <a class="header-login-link" href="#">Sing in</a>
                <a class="button" href="#">Start Trial</a>
             </div>
+
+            <button class="mobile-nav-button" type="button">
+               <span class="mobile-nav-button__icon"></span>
+            </button>
          </div>
       </div>
    </header>
 
+   <div class="mobile-nav">
+      <img class="mobile-nav-logo" src="img/Logo.svg" alt="logo">
+      <nav class="mobile-nav-list">
+         <ul>
+            <li><a href="#">Why Alivio</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Pricing</a></li>
+         </ul>
+      </nav>
+      <div class="mobile-login">
+         <a href="#">Sign in</a>
+         <a class="button button-big" href="#">Start Trial</a>
+      </div>
+   </div>
    <main>
       <section class="home">
          <div class="container">
@@ -122,15 +135,15 @@
                </div>
                <div class="step">
                   <h4 class="step-heading" data-number="03">Alivio!</h3>
-                  <div class="step-text">
-                     <p>
-                        Now you are aware, and have a way to manage and overcome your own stress.
-                        What are you waiting for? Alivio today!
-                     </p>
-                  </div>
-                  <div class="step-img-wrapper">
-                     <img class="step-img" src="img/steps/step_03.jpeg" alt="Steps img">
-                  </div>
+                     <div class="step-text">
+                        <p>
+                           Now you are aware, and have a way to manage and overcome your own stress.
+                           What are you waiting for? Alivio today!
+                        </p>
+                     </div>
+                     <div class="step-img-wrapper">
+                        <img class="step-img" src="img/steps/step_03.jpeg" alt="Steps img">
+                     </div>
                </div>
             </div>
          </div>
@@ -225,10 +238,12 @@
                      <a href="#">Pricing</a>
                   </li>
                </ul>
-            </nav> 
+            </nav>
          </div>
       </div>
    </footer>
+
+   <script src="js/main.js"></script>
 </body>
 
 </html>
