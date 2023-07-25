@@ -163,12 +163,16 @@
                </div>
 
                <div class="story-video">
-                  <div class="story-video-overlay">
-                     <button class="story-video-button">
-                        <img src="img/story/play-white.svg" alt="icon play">
+                  <div id="video-story-overlay" class="story-video-overlay">
+                     <button id="video-story-button" class="story-video-button">
+                        <img id="video-story-button-icon" width="82" height="82" src="img/story/play-white.svg" alt="icon play">
                      </button>
                   </div>
-                  <img class="story-video-object" src="img/story/video-cover.jpeg" alt="video">
+                  <!-- <img class="story-video-object" src="img/story/video-cover.jpeg" alt="video"> -->
+
+                  <video class="story-video-object" id="video-story">
+                     <source src="./video/customer-story.mp4" type="video/mp4">
+                  </video>
                </div>
             </div>
          </div>
